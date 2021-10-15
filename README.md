@@ -20,11 +20,11 @@ it's part of a repo series designed to create a **Web Application with Angular 1
 
 # [Live Demo](#live-demo)
 
-Here is a working live demo : https://angular-starter.ganatan.com
+Here is a working live demo : https://baandav.com
 
 <p align="center">
   <p align="center">
-    <a href="https://angular-starter.ganatan.com">
+    <a href="https://baandav.com">
       <img src="img/demo-angular-example-starter-github.png" alt="Demo example"/>
     </a>
   </p>
@@ -35,16 +35,16 @@ Here is a working live demo : https://angular-starter.ganatan.com
 ```bash
 # choose a repo
 # download the example or clone the repo from github
-git clone https://github.com/ganatan/angular-starter.git
+git clone https://github.com/ganatan/baandav.git
 
 # download the example or clone the repo from gitlab
-git clone https://gitlab.com/ganatan/angular-starter.git
+git clone https://gitlab.com/ganatan/baandav.git
 
 # download the example or clone the repo from bitbucket
-git clone https://bitbucket.org/ganatan/angular-starter.git
+git clone https://bitbucket.org/ganatan/baandav.git
 
 # change directory
-cd angular-starter
+cd baandav
 
 # install the repo with npm
 npm install
