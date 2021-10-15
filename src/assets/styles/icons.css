@@ -1,0 +1,106 @@
+.icon-xl {
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.icon-s {
+    min-width: 20px;
+    min-height: 20px;
+    max-width: 20px;
+    max-height: 20px;
+    margin-right: 20px;
+}
+
+.icon-staffing {
+    -webkit-mask: url("../icons/staffing.svg") no-repeat center / contain;
+    mask: url("../icons/staffing.svg") no-repeat center / contain;
+    background: var(--blue);
+    display: block;
+}
+
+.icon-contract {
+    -webkit-mask: url("../icons/contract.svg") no-repeat center / contain;
+    mask: url("../icons/contract.svg") no-repeat center / contain;
+    background: var(--orange);
+    display: block;
+}
+
+.icon-executive {
+    -webkit-mask: url("../icons/executive.svg") no-repeat center / contain;
+    mask: url("../icons/executive.svg") no-repeat center / contain;
+    background: var(--red);
+    display: block;
+}
+
+.icon-menu-drawer {
+    -webkit-mask: url("../icons/menu-drawer.svg") no-repeat center / contain;
+    mask: url("../icons/menu-drawer.svg") no-repeat center / contain;
+    background: var(--nav-text-color);
+    display: block;
+}
+
+/* CONTACT ICONS */
+.icon-phone {
+    -webkit-mask: url("../icons/phone.svg") no-repeat center / contain;
+    mask: url("../icons/phone.svg") no-repeat center / contain;
+    background: var(--orange);
+    display: block;
+}
+
+.icon-mail {
+    -webkit-mask: url("../icons/mail-icon.svg") no-repeat center / contain;
+    mask: url("../icons/mail-icon.svg") no-repeat center / contain;
+    background: var(--orange);
+    display: block;
+}
+
+.icon-location {
+    -webkit-mask: url("../icons/localtion-icon.svg") no-repeat center / contain;
+    mask: url("../icons/location-icon.svg") no-repeat center / contain;
+    background: var(--orange);
+    display: block;
+}
+
+/* SOCIAL ICONS */
+.icon-outsourcing {
+    -webkit-mask: url("../icons/outsourcing.svg") no-repeat center / contain;
+    mask: url("../icons/outsourcing.svg") no-repeat center / contain;
+    background: var(--violet);
+    display: block;
+}
+
+.icon-fb {
+    -webkit-mask: url("../icons/facebook-f-brands.svg") no-repeat center / contain;
+    mask: url("../icons/facebook-f-brands.svg") no-repeat center / contain;
+    background: var(--nav-text-color);
+    display: block;
+}
+
+.icon-twitter {
+    -webkit-mask: url("../icons/twitter-brands.svg") no-repeat center / contain;
+    mask: url("../icons/twitter-brands.svg") no-repeat center / contain;
+    background: var(--nav-text-color);
+    display: block;
+}
+
+.icon-linkedin {
+    -webkit-mask: url("../icons/linkedin-in-brands.svg") no-repeat center / contain;
+    mask: url("../icons/linkedin-in-brands.svg") no-repeat center / contain;
+    background: var(--nav-text-color);
+    display: block;
+}
+
+/* FOOTER IMAGE */
+.icon-footer-image {
+    -webkit-mask: url("../icons/footer-path.svg") no-repeat top / cover;
+    mask: url("../icons/footer-path.svg") no-repeat top / cover;
+    background: var(--orange);
+    display: block;
+    width: calc(100% + 32px);
+    margin-top: 40px;
+    background-position: top;
+    margin-left: -16px;
+    margin-right: -16px;
+}

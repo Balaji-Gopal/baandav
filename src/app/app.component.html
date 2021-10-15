@@ -1,0 +1,402 @@
+<!-- HEADER -->
+<div class="navbar">
+  <a
+    href="#home"
+    class="logo-text"
+  >
+    <img
+      src="../assets/images/baandav-logo.svg"
+      class="logo-img"
+    >
+    <h2 class="m-0">
+      <span class="text-blue">b</span>
+      <span class="text-blue">a</span>
+      <span class="text-blue">a</span>
+      <span class="text-blue">n</span>
+      <span class="text-blue">d</span>
+      <span class="text-blue">a</span>
+      <span class="text-blue">v</span>
+    </h2>
+  </a>
+
+  <div class="ml-auto navbar-menus">
+    <a
+      href="#home"
+      class="nav-items"
+    >
+      Home
+    </a>
+
+    <a
+      href="#about"
+      class="nav-items"
+    >
+      About us
+    </a>
+
+    <a
+      href="#services"
+      class="nav-items"
+    >
+      Services
+    </a>
+
+    <a
+      href="#domains"
+      class="nav-items"
+    >
+      Terrain
+    </a>
+
+    <a
+      href="#contact"
+      class="nav-items"
+    >
+      Contact us
+    </a>
+  </div>
+
+  <div class="mobile-menu">
+    <button
+      class="icon-button-menu"
+      (click)="openMenu()"
+    >
+      <span class="icon-menu-drawer icon-s"></span>
+    </button>
+
+    <div
+      class="menus-lists"
+      *ngIf="menuContent"
+    >
+      <a
+        href="#home"
+        class="nav-items"
+        (click)="openMenu()"
+      >
+        Home
+      </a>
+
+      <a
+        href="#about"
+        class="nav-items"
+        (click)="openMenu()"
+      >
+        About us
+      </a>
+
+      <a
+        href="#services"
+        class="nav-items"
+        (click)="openMenu()"
+      >
+        Services
+      </a>
+
+      <a
+        href="#domains"
+        class="nav-items"
+        (click)="openMenu()"
+      >
+        Terrain
+      </a>
+
+      <a
+        href="#contact"
+        class="nav-items"
+        (click)="openMenu()"
+      >
+        Contact us
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- LANDING BLOCK -->
+<div
+  class="landing-block"
+  id="home"
+>
+  <div class="display-3">baandav consulting</div>
+  <div class="display-1 my-2">Choosing right for the right job</div>
+  <a href="#contact" class="button-huge">Are you recruiting?</a>
+</div>
+
+<!-- ABOUT US -->
+<div
+  class="baandav-blocks"
+  id="about"
+>
+  <div class="display-2">who we are</div>
+
+  <div class="container">
+    <p>We are budding consultants for IT business solutions. We are providing a full range of recruitment solutions like temporary staffing,permanent staffing and other workforce solutions in the areas of IT, ITES, NON-IT and HR. We hire well experienced candidates where they can learn and grow with the organization.</p>
+
+    <p>Our bespoke recruitment solution team uses the right mix of technology and human intelligence to help you to attract and hire candidates who contribute to both your business goals and culture. Our recruitment solution team has more than 10yrs of recruitment experience in hiring people from budding startups to big MNC's.</p>
+  </div>
+
+  <div class="row align-items-center about-info">
+    <div class="columns-three">
+      <div class="display-1">50K+</div>
+      <div class="display-3">Candidates interviewed</div>
+    </div>
+
+    <div class="columns-three">
+      <div class="display-1">80%</div>
+      <div class="display-3">Candidates shortlisted</div>
+    </div>
+
+    <div class="columns-three">
+      <div class="display-1">70%</div>
+      <div class="display-3">Candidates hired</div>
+    </div>
+  </div>
+</div>
+
+<!-- OUR SERVICES -->
+<div
+  class="baandav-blocks pb-0"
+  id="services"
+>
+  <div class="display-2">our services</div>
+
+  <div class="row">
+    <div class="columns-four">
+      <span class="icon-staffing icon-xl"></span>
+      <div class="service-label">Permanent staffing</div>
+      <p *ngIf="hide">Finding the right people for permanent recruitment is a meticulous, time-intensive job requiring a great deal
+        of skill and experience. Things that we will deploy to ensure you get the best!</p>
+    </div>
+
+    <div class="columns-four">
+      <span class="icon-outsourcing icon-xl"></span>
+      <div class="service-label">outsourcing</div>
+      <p *ngIf="hide">Recruitment Process Outsourcing - A model through which the employer can outsource or transfer all or part of
+        their recruitment activities to us. If this is the model you'd like to go with we've got you covered.</p>
+    </div>
+
+    <div class="columns-four">
+      <span class="icon-executive icon-xl"></span>
+      <div class="service-label">executive search</div>
+      <p *ngIf="hide">With an established presence in the “Executive Search” business, we are hoistically in tune with our regional
+        markets to help you find exactly what you require.</p>
+    </div>
+
+    <div class="columns-four">
+      <span class="icon-contract icon-xl"></span>
+      <div class="service-label">Contract staffing</div>
+      <p *ngIf="hide">In today’s business environment, contract staffing is relied upon by a number of organizations to meet their
+        growing needs. Our methods have you covered.</p>
+    </div>
+  </div>
+
+  <div class="full-width-block announcement-block">
+    <div class="display-2">
+      Our most brilliant talent comes from our network!
+      <br />
+      Refer a friend and we'll reward you!
+    </div>
+
+    <a href="#contact" class="button-huge button-light">Refer a friend!</a>
+  </div>
+
+  <div class="full-width-block next-step-block pb-0">
+    <div class="container">
+      <div class="display-3 text-black text-left">Find your</div>
+      <div class="display-2 m-0 text-orange">next step</div>
+      <div style="margin: 8px 0;">Not sure what you're looking for? We can still help!</div>
+      <div>
+        <a
+        href="#contact"
+          class="special-tag"
+        >Submit your resume</a> and we'll reach out if we have a great match.
+      </div>
+    </div>
+
+    <img
+      src="../assets/images/next-steps.png"
+      style="width: calc(100% + 20px); margin: 0 -10px;"
+    >
+  </div>
+</div>
+
+<!-- DOMAINS -->
+<div
+  class="baandav-blocks"
+  id="domains"
+>
+  <div class="display-2">Terrain</div>
+
+  <div class="container row justify-content-center">
+
+    <div class="columns-three-template">
+      <div class="domains-header">IT</div>
+
+      <ul class="domain-details">
+        <li>Full Stack Developers</li>
+        <li>UI Developers</li>
+        <li>UX Designers</li>
+        <li>DevOps, SecOps, CloudOps</li>
+        <li>Testing</li>
+        <li>Telecom & Wireless</li>
+        <li>Internet Applications</li>
+        <li>Cloud Computing</li>
+        <li>Retails Finance Services</li>
+        <li>Consumer Banking</li>
+        <li>Enterprise Server</li>
+        <li>Semiconductor</li>
+        <li>Networking</li>
+        <li>Visualization</li>
+        <li>E-commerce</li>
+        <li>Storage</li>
+        <li>Mobility</li>
+        <li>Analytics</li>
+        <li>Mass Media & Hospitality</li>
+        <li>Manufacturing & Medical Transcription</li>
+      </ul>
+    </div>
+
+    <div class="columns-three-template">
+      <div class="domains-header">ITES</div>
+
+      <ul class="domain-details">
+        <li>Business Process Outsourcing</li>
+        <li>Knowledge Process Outsourcing</li>
+        <li>Inbound Technical Support</li>
+        <li>Outbound Technical Support</li>
+        <li>Outbound Customer Support</li>
+        <li>Chat Support</li>
+        <li>Service Desk</li>
+        <li>Back Office</li>
+      </ul>
+    </div>
+
+    <div class="columns-three-template">
+      <div class="domains-header">Non-IT</div>
+
+      <ul class="domain-details">
+        <li>Services</li>
+        <li>Food & Hospitality</li>
+        <li>FMCG</li>
+        <li>Private Equity</li>
+        <li>Healthcare</li>
+        <li>Banking & Finance</li>
+        <li>Corporate Banking</li>
+        <li>Investment Banking</li>
+        <li>BFSI & Automotive</li>
+        <li>Construction & Rela Estate</li>
+        <li>Medical & Entertainment</li>
+        <li>Retail</li>
+        <li>Engineering & Manufacturing</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT INFO -->
+<div
+  class="contact-block"
+  id="contact"
+>
+  <div class="row container">
+    <div class="two-template-column">
+      <div class="display-3 text-black text-left">Contact Information</div>
+      <p>Fill up the form and out team will get back to you in 24 hours.</p>
+
+      <div class="contact-info">
+        <span class="icon-phone icon-s"></span>
+        +91 6361992266
+      </div>
+
+      <div class="contact-info">
+        <span class="icon-mail icon-s"></span>
+        hr@baandav.com
+      </div>
+
+      <div class="contact-info">
+        <span class="icon-location icon-s"></span>
+        #26, 1st Floor, Tulsi House, Corporation ATM Buidling, Nandini Layout
+        <br />
+        Bengaluru - 560096
+      </div>
+
+      <div class="my-5">
+        <div class="display-3 text-black text-left">Follow us on</div>
+        <div class="row">
+          <a *ngIf="hide"
+            href="#"
+            target="_blank"
+            class="icon-fb icon-s socila-links"
+          ></a>
+          <a
+            href="https://twitter.com/baandav"
+            target="_blank"
+            class="icon-twitter icon-s socila-links"
+          ></a>
+          <a
+            href="https://www.linkedin.com/company/baandav/"
+            target="_blank"
+            class="icon-linkedin icon-s socila-links"
+          ></a>
+        </div>
+      </div>
+
+      <span>© Copyright {{year}}. All rights reserved.</span>
+    </div>
+
+    <div class="two-template-column write-us-block">
+      <div class="display-3 text-white text-left">Write us</div>
+
+      <form>
+        <div class="form-group">
+          <span class="form-label">Name</span>
+          <input
+            type="text"
+            class="form-field"
+            placeholder="Enter your name"
+          >
+        </div>
+
+        <div class="form-group" *ngIf="hide">
+          <span class="form-label">Last name</span>
+          <input
+            type="text"
+            class="form-field"
+            placeholder="Enter your last name"
+          >
+        </div>
+
+        <div class="form-group">
+          <span class="form-label">Email</span>
+          <input
+            type="email"
+            class="form-field"
+            placeholder="Enter your email"
+          >
+        </div>
+
+        <div class="form-group">
+          <span class="form-label">Phone</span>
+          <input
+            type="tel"
+            class="form-field"
+            placeholder="Enter your phone number"
+          >
+        </div>
+
+        <div class="form-group">
+          <span class="form-label">Message</span>
+          <textarea
+            class="form-field"
+            placeholder="Enter your message"
+          ></textarea>
+        </div>
+
+        <div class="row justify-content-end">
+          <button class="button-submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <span class="icon-footer-image"></span>
+</div>
